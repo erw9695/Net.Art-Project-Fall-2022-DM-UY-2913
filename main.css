@@ -1,0 +1,113 @@
+#centerFormatSlide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+#formatSlide {
+    background-color: gray;
+    width: 900px;
+    height: 650px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.sideBar {
+    background-color: gray;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    opacity: .1;
+    margin: 10px;
+}
+
+.sideBar:hover {
+    animation: rollOffScreen 8s ease 1s infinite alternate-reverse;
+}
+
+@keyframes rollOffScreen {
+    0% {
+        height: 80px;
+    }
+    5% {
+        opacity: .15;
+        height: 108px;
+    }
+    10% {
+        opacity: .20;
+        height: 137px;
+    }
+    15% {
+        opacity: .25;
+        height: 166px;
+    }
+    20% {
+        opacity: .30;
+        height: 194px;
+    }
+    25% {
+        opacity: .35;
+        height: 223px;
+    }
+    30% {
+        opacity: .40;
+        height: 251px;
+    }
+    35% {
+        opacity: .45;
+        height: 280px;
+    }
+    40% {
+        opacity: .50;
+        height: 308px;
+    }
+    45% {
+        opacity: .55;
+        height: 337px;
+    }
+    50% {
+        opacity: .60;
+        height: 365px;
+    }
+    55% {
+        opacity: .65;
+        height: 394px;
+    }
+    60% {
+        opacity: .70;
+        height: 422px;
+    }
+    65% {
+        opacity: .75;
+        height: 451px;
+    }
+    70% {
+        opacity: .80;
+        height: 479px;
+    }
+    75% {
+        opacity: .85;
+        height: 508px;
+    }
+    80% {
+        opacity: .90;
+        height: 536px;
+    }
+    85% {
+        opacity: .95;
+        height: 565px;
+    }
+    90% {
+        opacity: .96;
+        height: 593px;
+    }
+    95% {
+        opacity: .98;
+        height: 622px;
+    }
+    100% {
+        opacity: 1;
+        height: 650px;
+    }
+}
